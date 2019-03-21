@@ -32,14 +32,14 @@ author_id, INTEGER,
 series_id INTEGER
 );
 
-CREATE TABLE characters (
-id INTEGER PRIMARY KEY,
-name TEXT,
-motto TEXT,
-species TEXT,
-author_id, INTEGER,
-series_id INTEGER
-);
+-- CREATE TABLE characters (
+-- id INTEGER PRIMARY KEY,
+-- name TEXT,
+-- motto TEXT,
+-- species TEXT,
+-- author_id, INTEGER,
+-- series_id INTEGER
+-- );
 
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
@@ -47,11 +47,11 @@ CREATE TABLE character_books (
   character_id INTEGER
 );
 
-CREATE TABLE character_books (
-  id INTEGER PRIMARY KEY,
-  book_id INTEGER,
-  character_id INTEGER
-);
+-- CREATE TABLE character_books (
+--   id INTEGER PRIMARY KEY,
+--   book_id INTEGER,
+--   character_id INTEGER
+-- );
 
 --
 -- INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), (2, "Second Series", 2, 2);
